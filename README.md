@@ -15,15 +15,15 @@ This project is a Library Management System meant to handle book, user, and tran
 
 ## **AVAILABLE API:**
 
-| **Name** | **HTTP Method** | **Endpoint** | **Requirements** |  |
-| --- | --- | --- | --- | --- |
-| **Registration** | POST | http://localhost:4545/auth/register | Request Body: `usertype:string, userfullname:string , admissionId:string,employeeId:string,age:number,gender:string,dob:Date,isadmin:Boolean,address:string,mobilenumber:string,email:String,password:string,points:number` |  |
-| **Login** | PUT | http://localhost:4545/auth/signin | Request Body : `email:string, password:string` |  |
-| **Get User** | GET | http://localhost:4545/user/getuser/id/:id | Request Params: `id:string` |  |
-| **Delete user** | DELETE | http://localhost:4545/user/deleteuser/id/:id | Request Params: `id:string` |  |
-| **Update User** | PUT | http://localhost:4545/user/updateuser/id/:id | Request Params: `id:string`Request Body:`usertype:string, userfullname:string , admissionId:string,employeeId:string,age:number,gender:string,dob:Date,isadmin:Boolean,address:string,mobilenumber:string,email:String,password:string,points:number` |  |
-| **Create a BookCategory** | POST | http://localhost:4545/bookcategory/addbookcat |  Request Body:`categoryname: string,` |  |
-| **Get Book Category** | GET | http://localhost:4545/bookcategory/getcat | Reuest Params : `id:string` |  |
+| **Name** | **HTTP Method** | **Endpoint** | **Requirements** |
+| --- | --- | --- | --- |
+| **Registration** | POST | http://localhost:4545/auth/register | Request Body: `usertype:string, userfullname:string , admissionId:string,employeeId:string,age:number,gender:string,dob:Date,isadmin:Boolean,address:string,mobilenumber:string,email:String,password:string,points:number` |
+| **Login** | PUT | http://localhost:4545/auth/signin | Request Body : `email:string, password:string` |
+| **Get User** | GET | http://localhost:4545/user/getuser/id/:id | Request Params: `id:string` |
+| **Delete user** | DELETE | http://localhost:4545/user/deleteuser/id/:id | Request Params: `id:string` |
+| **Update User** | PUT | http://localhost:4545/user/updateuser/id/:id | Request Params: `id:string`Request Body:`usertype:string, userfullname:string , admissionId:string,employeeId:string,age:number,gender:string,dob:Date,isadmin:Boolean,address:string,mobilenumber:string,email:String,password:string,points:number` |
+| **Create a BookCategory** | POST | http://localhost:4545/bookcategory/addbookcat |  Request Body:`categoryname: string,` |
+| **Get Book Category** | GET | http://localhost:4545/bookcategory/getcat | Reuest Params : `id:string` |
 | **Create a Book** | POST | http://localhost:4545/book/addbook | Request Body: `poid: string, item:`     `bookname:string,
   alternatetitle:string,
   author:string,
@@ -32,7 +32,7 @@ This project is a Library Management System meant to handle book, user, and tran
   publisher:string,
   bookcountavailable:number,
   bookstatus:  string,
-  transactions:objid →Transaction` |  |
+  transactions:objid →Transaction` |
 | **Create a Book Transaction** | POST | http://localhost:4545/booktarnasction/addbooktran | Request Body: `isadmin:boolean,
 bookId:Number,
 borrowerId:Number ,booknam:string,
@@ -41,7 +41,7 @@ transactiontype:string,
 fromdat:Date,
 todate:Date,
 returndate:Date,
-transactionStatu:  string` |  |
+transactionStatu:  string` |
 
 <h2 align="left">Tools Used:</h2>
 
