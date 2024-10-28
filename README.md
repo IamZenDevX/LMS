@@ -51,7 +51,7 @@ This project is a Library Management System meant to handle book, user, and tran
 
 ## 1. **Database Structure**
 
-The platform will require a relational database to manage Purchase Order and Items . Below is a proposed database structure with the key tables.
+
 
 <h2 align="left">Tables:</h2>
 
