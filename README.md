@@ -13,6 +13,8 @@ This project is a Library Management System meant to handle book, user, and tran
 
 <h2 align="left">AVAILABLE API:</h2>
 
+## **AVAILABLE API:**
+
 | **Name** | **HTTP Method** | **Endpoint** | **Requirements** |  |
 | --- | --- | --- | --- | --- |
 | **Registration** | POST | http://localhost:4545/auth/register | Request Body: usertype:string, userfullname:string , admissionId:string,employeeId:string,age:number,gender:string,dob:Date,isadmin:Boolean,address:string,mobilenumber:string,email:String,password:string,points:number |  |
