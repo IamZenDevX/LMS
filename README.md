@@ -26,6 +26,7 @@ This project is a Library Management System meant to handle book, user, and tran
 | **Get Book Category** | GET | http://localhost:4545/bookcategory/getcat | Reuest Params : `id:string` |
 | **Create a Book** | POST | http://localhost:4545/book/addbook | RequestBody: `bookname:string,alternatetitle:string,author:string,language:string,categorie:objid → Category,publisher:string,bookcountavailable:number,bookstatus:  string,transactions:objid →Transaction` |
 | **Create a Book Transaction** | POST | http://localhost:4545/booktarnasction/addbooktran | Request Body: `isadmin:boolean,bookId:Number,borrowerId:Number,booknam:string,borrowername: string,transactiontype:string,fromdat:Date,todate:Date,returndate:Date,transactionStatu:string` |
+
 <h2 align="left"> Tools Used:</h2>
 ![Zendevx Technology](https://github.com/user-attachments/assets/36c979fe-929e-44a4-8958-9c15dc466e35)
 
