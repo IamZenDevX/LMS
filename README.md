@@ -1,17 +1,17 @@
 # LMS
 Library Management System
-# Introduction:
+<h2 align="left"> Introduction:</h2>
 
 This project is a Library Management System meant to handle book, user, and transaction processing inside a library efficiently. This system offers consistent handling of library data, user roles, and borrowing transactions, designed to showcase CRUD tasks spanning many database formats and database connections.
 
-# Key Features :
+<h2 align="left">Key Features :</h2>
 
 - **User Management:** Track user information utilizing fields for user type, personal information, administrative tasks including staff members as well as library visitors.
 - **Book Management:** Title, alternate titles, author, categories, publisher, and current availability assist you to precisely manage book records.
 - **Book Categories:** Sort books in groups so that they may be easily accessed and controlled from one another.
 - **Transactions:** Record book borrow and return transactions completely including due dates, return status, and transaction types.
 
-## **AVAILABLE API:**
+<h2 align="left">AVAILABLE API:</h2>
 
 | **Name** | **HTTP Method** | **Endpoint** | **Requirements** |  |
 | --- | --- | --- | --- | --- |
@@ -41,15 +41,15 @@ todate:Date,
 returndate:Date,
 transactionStatu:  string |  |
 
-## **Tools Used:**
+<h2 align="left">Tools Used:</h2>
 
-![Zendevx Technology.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3f690236-03bd-47db-ac0f-28b089483950/08d9df57-b114-4701-bd1c-89548cd3661c/Zendevx_Technology.png)
+![Zendevx Technology](https://github.com/user-attachments/assets/36c979fe-929e-44a4-8958-9c15dc466e35)
 
-## Testing Tools Used:
+<h2 align="left"> Testing Tools Used:</h2>
 
-![PostMan Github.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3f690236-03bd-47db-ac0f-28b089483950/0d6d1c89-f506-4ac0-8d04-9f5ff3d35244/PostMan_Github.png)
+![PostMan Github](https://github.com/user-attachments/assets/3381c639-715f-40b9-85d3-08384553ee12)
 
-### **Library:**
+<h2 align="left">Library:</h2>
 
 - bcryptjs
 - connect-mongo
@@ -67,7 +67,7 @@ transactionStatu:  string |  |
 
 The platform will require a relational database to manage Purchase Order and Items . Below is a proposed database structure with the key tables.
 
-### **Tables**:
+<h2 align="left">Tables:</h2>
 
 ---
 
@@ -123,7 +123,7 @@ The platform will require a relational database to manage Purchase Order and Ite
 | returndate | Date |
 | transactionstatus | String |
 
-## Use Cases
+<h2 align="left"> Use Cases: </h2>
 
 1. **User Registration and Management**
     - **Add/Update/Delete Users**: User registration and administration allows you to register, change, or delete fresh system users.
@@ -140,11 +140,13 @@ The platform will require a relational database to manage Purchase Order and Ite
     - **View Transaction History**: Track borrowing and return history in Transaction Management using either user or book.
     - **Overdue Alerts**: Examine past-due records and, if needed, notify customers or apply penalties.
 
-# **Development with ZenDevx:**
+<h2 align="left">Development with ZenDevx:</h2>
 
-!https://private-user-images.githubusercontent.com/185465554/377859615-7dd7220f-e83c-4490-9ac2-beab3bcf8c35.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk4NTU4MTEsIm5iZiI6MTcyOTg1NTUxMSwicGF0aCI6Ii8xODU0NjU1NTQvMzc3ODU5NjE1LTdkZDcyMjBmLWU4M2MtNDQ5MC05YWMyLWJlYWIzYmNmOGMzNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyNVQxMTI1MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MTM5MDBiZWYxYWNiYmMyMjYxMDZlYmJlY2I1Y2Q1ZGRiNzQyYjNlMjMwNTQ0NTE4OTI5ZWQ2YTdjM2FiNmRiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.RHfvv2w5at_ha1mH5CMqUhMod2CYy4hWaaJki-WUIvI
+<a href="https://www.linkedin.com/company/zendevx/" target="blank"><img align="center" src="https://github.com/user-attachments/assets/9a6080ca-4265-43e5-8652-9454651970a9" alt="ZenDevX" height="50" width="50" /></a>
+<a href="https://www.youtube.com/@zendevx" target="blank"><img align="center" src="https://github.com/user-attachments/assets/1beefdd6-fa17-49c9-bde7-e8f30f539b96" alt="ZenDevX" height="50" width="50" /></a>
+<a href="#" target="blank"><img align="center" src="https://github.com/user-attachments/assets/f1eeb865-3d23-407a-9a2b-d76b4e85c6dd" alt="ZenDevX" height="50" width="50" /></a>
 
-# **🐦 Connect With Me:**
+<h2 align="left">🐦 Connect With Me:</h2>
 
            
 
