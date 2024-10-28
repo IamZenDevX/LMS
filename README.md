@@ -13,9 +13,7 @@ This project is a Library Management System meant to handle book, user, and tran
 
 <h2 align="left">AVAILABLE API:</h2>
 
-## **AVAILABLE API:**
 
-## **AVAILABLE API:**
 
 | **Name** | **HTTP Method** | **Endpoint** | **Requirements** |
 | --- | --- | --- | --- |
