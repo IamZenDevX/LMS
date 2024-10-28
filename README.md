@@ -24,7 +24,7 @@ This project is a Library Management System meant to handle book, user, and tran
 | **Update User** | PUT | http://localhost:4545/user/updateuser/id/:id | Request Params: `id:string`Request Body:`usertype:string, userfullname:string , admissionId:string,employeeId:string,age:number,gender:string,dob:Date,isadmin:Boolean,address:string,mobilenumber:string,email:String,password:string,points:number` |
 | **Create a BookCategory** | POST | http://localhost:4545/bookcategory/addbookcat |  Request Body:`categoryname: string,` |
 | **Get Book Category** | GET | http://localhost:4545/bookcategory/getcat | Reuest Params : `id:string` |
-| **Create a Book** | POST | http://localhost:4545/book/addbook | Request Body: `poid: string, item:`     `bookname:string,
+| **Create a Book** | POST | http://localhost:4545/book/addbook | Request Body: Request Body: bookname:string,
   alternatetitle:string,
   author:string,
   language:string,
@@ -32,7 +32,7 @@ This project is a Library Management System meant to handle book, user, and tran
   publisher:string,
   bookcountavailable:number,
   bookstatus:  string,
-  transactions:objid →Transaction` |
+  transactions:objid →Transaction
 | **Create a Book Transaction** | POST | http://localhost:4545/booktarnasction/addbooktran | Request Body: `isadmin:boolean,
 bookId:Number,
 borrowerId:Number ,booknam:string,
