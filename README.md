@@ -26,7 +26,7 @@ This project is a Library Management System meant to handle book, user, and tran
 | **Get Book Category** | GET | http://localhost:4545/bookcategory/getcat | Reuest Params : `id:string` |
 | **Create a Book** | POST | http://localhost:4545/book/addbook | RequestBody: `bookname:string,alternatetitle:string,author:string,language:string,categorie:objid → Category,publisher:string,bookcountavailable:number,bookstatus:  string,transactions:objid →Transaction` |
 | **Create a Book Transaction** | POST | http://localhost:4545/booktarnasction/addbooktran | Request Body: `isadmin:boolean,bookId:Number,borrowerId:Number,booknam:string,borrowername: string,transactiontype:string,fromdat:Date,todate:Date,returndate:Date,transactionStatu:string` |
-
+<h2 align="left"> Tools Used:</h2>
 ![Zendevx Technology](https://github.com/user-attachments/assets/36c979fe-929e-44a4-8958-9c15dc466e35)
 
 <h2 align="left"> Testing Tools Used:</h2>
@@ -127,10 +127,8 @@ The platform will require a relational database to manage Purchase Order and Ite
 <h2 align="left">Development with ZenDevx:</h2>
 
 <a href="https://www.zendevx.com/" target="blank"><img align="center" src="https://github.com/user-attachments/assets/7dd7220f-e83c-4490-9ac2-beab3bcf8c35" alt="ZenDevX" height="auto" width="auto" /></a>
+
 <h2 align="left">🐦 Connect With Me:</h2>
-
-           
-
 <a href="https://www.linkedin.com/company/zendevx/" target="blank"><img align="center" src="https://github.com/user-attachments/assets/9a6080ca-4265-43e5-8652-9454651970a9" alt="ZenDevX" height="50" width="50" /></a>
 <a href="https://www.youtube.com/@zendevx" target="blank"><img align="center" src="https://github.com/user-attachments/assets/1beefdd6-fa17-49c9-bde7-e8f30f539b96" alt="ZenDevX" height="50" width="50" /></a>
 <a href="#" target="blank"><img align="center" src="https://github.com/user-attachments/assets/f1eeb865-3d23-407a-9a2b-d76b4e85c6dd" alt="ZenDevX" height="50" width="50" /></a>
