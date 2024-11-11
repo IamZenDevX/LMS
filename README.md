@@ -118,7 +118,7 @@ This project is a Library Management System meant to handle book, user, and tran
     - **Add/Update/Delete Books**: add new books, change existing entries, or delete old ones.
     - **Search Books**: Search author; book names, genre; availability; classification;
 3. **Category Management**
-    - See here a list of every book falling within a particular category: ** Sort books** according to **category**.
+    - See here a list of every book falling within a particular category: Sort books according to category.
 4. **Borrowing and Returning Books**
     - **Initiate Borrowing**: Note a fresh borrowing transaction and adjust the book's availability state.
     - **Return Book**: Record the return, note the transaction as whole, then change availability.
