@@ -1,5 +1,5 @@
-# LMS
-Library Management System
+# Library Management System
+
 <h2 align="left"> Introduction:</h2>
 
 This project is a Library Management System meant to handle book, user, and transaction processing inside a library efficiently. This system offers consistent handling of library data, user roles, and borrowing transactions, designed to showcase CRUD tasks spanning many database formats and database connections.
