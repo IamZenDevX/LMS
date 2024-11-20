@@ -49,7 +49,7 @@ This project is a Library Management System meant to handle book, user, and tran
 - nodemon
 - validator
 
-##  **Database Structure**
+<h2 align="left">Database Structure</h2>
 
 
 
