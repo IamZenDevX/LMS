@@ -50,12 +50,13 @@ This project is a Library Management System meant to handle book, user, and tran
 - validator
 
 <h2 align="left">Database Structure</h2>
-
+The platform will require a relational database to manage User, book, bookCategory and book Transaction. Below is a proposed database structure with the key tables.
 
 
 <h3 align="left">Tables:</h3>
 
 ---
+
 
 ### a) User
 
